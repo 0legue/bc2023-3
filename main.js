@@ -3,7 +3,7 @@ const path = require('path');
 
 const desktopPath = path.join(require('os').homedir(), 'Desktop'); // Отримуємо шлях до робочого столу
 
-const outputFile = path.join(desktopPath, 'output.txt'); // Формуємо шлях до файлу на робочому столі
+const outputFile = path.join(desktopPath, 'letsgirya.txt'); // Формуємо шлях до файлу на робочому столі
 
 fs.readFile('data.json', 'utf8', (err, data) => {
   if (err) {
